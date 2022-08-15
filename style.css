@@ -1,0 +1,23 @@
+*{
+    font-family: 'Anek Bangla', sans-serif;
+    font-size:16px;
+}
+
+body{
+    background: #171c2c;
+}
+
+.logo-image{
+    width: 200px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.p-3{
+    background: #293043;
+    background-color: #293043;
+    border-bottom: 2px solid #a61f67;
+    border-radius: 0 0 5px 5px;
+}
