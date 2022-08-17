@@ -1,0 +1,261 @@
+*{
+    font-family: 'Anek Bangla', sans-serif;
+    font-size:16px;
+}
+
+body{
+    background: #171c2c;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.container-anime{
+  width: 1296px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 25px 25px;
+  background-color: #293043;
+  border-radius: 5px 5px 0 0;
+  border-top: 2px solid #a61f67;
+}
+
+.logo-image{
+    width: 200px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.p-3{
+    background: #293043;
+    background-color: #293043;
+    border-bottom: 2px solid #a61f67;
+    border-radius: 0 0 5px 5px;
+}
+
+.h5, h5 {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 6px #000000;
+}
+
+.carousel .carousel-item {
+  height: 400px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.text-episoade{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+
+.card{
+  margin-right: 24px;
+  background-color: #293043;
+  height: 410px;
+  width: 230px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  position: relative;
+  text-decoration: none !important;
+  border-top: 4px solid #a61f67;
+}
+
+.card-img, .card-img-top {
+top: 0;
+position: absolute;
+left: 0;
+width: 100%;
+height: 320px;
+background: url(https://animeru.org/templates/animeru/dleimages/playya.png) 50% 36% no-repeat;
+background-color: rgba(0, 0, 0, 0);
+background-color: rgba(0, 0, 0, 0.23);
+border-radius: 0px;
+}
+
+.card-body{
+    background: #3d455c;
+}
+
+.card-title{
+   padding-top: 315px;
+   font-size: 18px;
+   color: #FFF;
+   text-align: center;
+   overflow: hidden;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+  color: white;
+}
+
+.pagination{
+  background: #3d455c;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.page-item:not(:first-child) .page-link {
+  margin-left: -1px;
+  background: #293043;
+  border-radius: 20px;
+  color: white;
+  margin: 2px;
+  border: 1px solid #293043;
+}
+
+.page-item:first-child .page-link{
+  margin-left: -1px;
+  background: #293043;
+  border-radius: 20px;
+  color: white;
+  margin: 2px;
+  border: 1px solid #293043;  
+}
+
+.container-footer{
+    width: 1296px;
+    margin: 15px auto 0px;
+    overflow: hidden;
+    padding: 25px 25px;
+    background-color: #293043;
+    border-radius: 5px 5px 0 0;
+    border-top: 2px solid #a61f67;
+}
+
+.text-muted{
+    --bs-text-opacity: 1;
+    color: #fff !important;
+}
+
+.post-anime{
+    width: 1296px;
+    margin: 15px auto;
+    overflow: hidden;
+    padding: 25px 25px;
+    background-color: #293043;
+    border-radius: 5px 5px 0 0;
+    border-top: 2px solid #a61f67;
+}
+
+.titlu-anime{
+    color: white;
+    font-size:25px;
+    border-bottom: 1px solid #a61f67
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #171c2c;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #a61f67;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.btn-next-and-previous{
+    width: 1296px;
+    margin: 15px auto;
+    overflow: hidden;
+    padding: 25px 25px;
+    background-color: #293043;
+    border-radius: 5px 5px 0 0;
+    border-top: 2px solid #a61f67;
+}
+
+.btn-next{
+    width: 620px;
+    height: 35px;
+    background: #171c2c;
+    color:white;
+    border-radius: 10px;
+    border: 1px solid #a61f67;
+}
+
+.btn-previous{
+    width:620px;
+    height: 35px;
+    background: #171c2c;
+    color:white;
+    border-radius: 10px;
+    border: 1px solid #a61f67;
+}
+
+.comments-posts{
+    width: 1296px;
+    margin: 15px auto;
+    overflow: hidden;
+    padding: 25px 25px;
+    background-color: #293043;
+    border-radius: 5px 5px 0 0;
+    border-top: 2px solid #a61f67;
+}
+
+.comments{
+    border: 1px solid #a61f67;
+    margin-bottom: 10px;
+    position: relative;
+    background: #171c2c;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.title-comment{
+    color: white;
+    font-size:25px;
+    border-bottom: 1px solid #a61f67;
+    text-shadow: 2px 2px 5px #a61f67;
+}
+
+.rank-website{
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #b165ff;
+}
+
+.profile-comment{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px #4f4f4f;
+    margin: 10px;
+}
+
+.text-comments{
+color: white;
+}
+
+.name-profil-comments{
+    color: white;
+    font-weight: bold;
+}
